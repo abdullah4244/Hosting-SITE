@@ -1,0 +1,87 @@
+
+.navbar .main-header-container ul {
+   display: none;
+}
+
+.showcase-header {
+    flex-direction: column;
+    line-height: 1;
+   
+}
+
+.showcase-header .showcase-content {
+    width: 100%;
+    padding:0.75rem;
+    text-align: center;
+}
+.showcase-header .showcase-content h2 {
+  
+    font-size: 1.8rem;
+}
+.showcase-header .showcase-content p {
+ 
+    font-size: 13px
+}
+.showcase-header .showcase-image {
+    width: 100%;
+    padding:1rem;
+}   
+
+.showcase-header .showcase-content .btn {
+    margin :1.3rem 0 0 0;
+}
+
+.elementor-section .cards {
+    flex-direction: column;
+}
+
+.elementor-section .cards .card-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.form-section .container {
+    flex-direction: column;
+    justify-content: center;
+}
+.form-section .container .form-card  {
+    width: 90%;
+}
+.form-section .container .form-section-content {
+    text-align: center;
+}
+.form-section .container .form-section-content h6{
+    width: 100%;
+}
+.fb-icon {
+    width: 175px;
+    height: 175px;
+}
+.last-section .container .company-detail {
+    flex-direction: column;
+    align-items: center;
+}
+
+.last-section .container .company-detail .compdetail {
+    width: 100%;
+}
+.last-section .container .hosting-section .hosting-cards {
+
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-section .container .hosting-section .hosting-cards .card-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.5rem;
+   
+}
+.hosting-cards .card-item .progress-section {
+    flex-direction: column;
+}
+.progress-section .progress-item {
+    width: 100%;
+
+}

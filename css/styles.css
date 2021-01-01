@@ -1,0 +1,421 @@
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 1.7;
+   
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+    color:#000;
+
+}
+ 
+.showcase-header {
+    
+    background: #38287B;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.showcase-header .showcase-content {
+    width: 40%;
+    padding:1rem;
+  
+}
+.showcase-header .showcase-image {
+    width: 40%;
+    padding:1rem;
+}
+
+.showcase-header .showcase-image img {
+    width: 100%;
+    height: 100%;
+}
+.showcase-header .showcase-content h2 {
+ font-size: 2.6rem;
+ 
+}
+
+.showcase-header .showcase-content p {
+    font-size: 19px;
+    
+   }
+   .showcase-header .showcase-content .btn {
+       display: inline-block;
+    background: #FFA737;
+    padding: 10px 24px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1rem;
+    
+   }
+
+   .header .background-bottom {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.header .background-bottom .elementfill {
+    transform-origin: center;
+   
+    transform: rotateY(0deg);
+
+ }
+
+
+ .elementor-section {
+    max-width: 1140px;
+    margin: 1rem auto 6rem auto;
+    text-align: center;
+    padding: 1rem;
+  
+
+ }
+.time-box {
+     
+    max-width: 400px;
+    margin: auto;
+     
+     position: relative;
+   
+     
+     
+
+ }
+.time-box .timer {
+    border-radius: 10px;
+     background-color: #fff;
+     padding: 1rem;
+     text-align: center;
+     position: relative;
+     top: -60px;
+  
+    
+ }
+
+ .time-box .timer .text {
+     line-height: 1;
+     font-weight: 500;
+ }
+ .timer .time {
+     line-height: 1;
+     display: inline;
+    color: #38287B;
+    font-size: 50px;
+    
+}
+
+.elementor-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #202020;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.elementor-section .cards {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.elementor-section .cards .card-item {
+    width: 23%;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.4);
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-left: 0.75rem;
+    text-align: center;
+    line-height: 1;
+  
+}
+
+.elementor-section .cards .card-item i,
+.elementor-section .cards .card-item h3,
+.elementor-section .cards .card-item p,
+.elementor-section .cards .card-item .btn{
+
+    margin-bottom: 1.5rem;
+}
+
+.elementor-section .cards .card-item h3 {
+    
+    
+    
+    line-height: 1;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 23px;
+  
+}
+
+.elementor-section .cards .card-item p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.elementor-section .cards .card-item .btn{
+    display: inline-block;
+    color: #fff;
+    background: #38287B;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.form-section {
+    position: relative;
+    border: 1px solid #000;
+    border-left: none;
+    margin-bottom: 2rem;
+  
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.form-section .container {
+   
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1.3rem;
+}
+
+
+.form-section .container .form-card {
+    
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.4);
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: -50px;
+
+}
+.form-section .container .form-card h3 {
+    font-size: 20px;
+    padding: 9px 9px;
+    border-radius: 20px 20px 0px 0px;
+    color: #fff;
+    background-color: #FFA737;
+
+}
+.form-section .container form {
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 20px;
+}
+
+.form-section .container .form-card form input {
+    padding: 20px;
+    width: 80%;
+    border: none;
+}
+
+.form-section .container .form-card form input:focus {
+
+    border: 2px solid #000;
+}
+
+.form-section .container .form-card form .btn-submit {
+    background: #FFA737;
+    color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    outline-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+} 
+
+.form-section .container .form-card p {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 0px 20px 0px;
+}
+
+.form-section .container .form-section-content h6 {
+    color: #6B7072;
+    width: 70%;
+    font-size: 0.92rem;
+    font-weight: 500;
+}
+
+.form-section .container .form-section-content h3 {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+}
+
+.fb-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.last-section .container {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    color: #2B3368;
+}
+
+.last-section .container .company-detail {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.last-section .container .company-detail .compdetail {
+    
+    padding: 10px;
+    width: 30%;
+    
+}
+
+.last-section .container .company-detail .compdetail h2:first-child {
+    font-family: 'Karla', sans-serif;
+    font-size: 49px;
+    font-weight: 500;
+}
+
+.last-section .container .company-detail .compdetail h2:last-child {
+   
+    font-weight: 600;
+}
+
+.last-section .container .hosting-section h2 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.last-section .container .hosting-section .hosting-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.last-section .container .hosting-section .hosting-cards .card-item {
+    width: 48%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.4);
+    margin: 0.7rem;
+
+}
+
+.last-section .container .hosting-section .hosting-cards .last-card {
+    width: 100%;
+}
+
+.last-section .container .hosting-section .hosting-cards .card-item .heading  {
+    font-family: 'Karla', sans-serif;
+     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.last-section .container .hosting-section .hosting-cards .card-item .heading h3 {
+    
+    font-size: 25px;
+    font-weight: 500;
+    width: 35%;
+    text-align: left;
+}
+
+.hosting-cards .card-item .progress-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-section .progress-item {
+    width: 35%;
+    padding: 0.75rem;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.progress-section .progress-item .progressbar {
+    background-color: #38287B;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.progressbar .progressdone {
+    height: 100%;
+    border-radius: 5px;
+    width: 0%;
+    background-color: #FFA737;
+    transition: 1s ease;
+}
+
+.last-section .container .Notification-section {
+    border-color: #38287B;
+    border-radius: 3px;
+    background-color: #38287B;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.Notification-section input {
+    width: 80%;
+    color: #fff;
+    font-size: 1rem;
+    font-family:'Poppins', sans-serif; 
+    
+    border: 1px solid #fff;
+    background-color: #38287B;
+    padding: 0.75rem;
+    border-radius: 5px;
+
+}
+.Notification-section input::placeholder {
+ color: #fff;
+ font-size: 1rem;
+ font-family:'Poppins', sans-serif; 
+ 
+
+}
+
+.Notification-section form .btn {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+     font-size: 1rem;
+    background: #FFA737;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border:none;
+    margin-left: 1rem;
+    outline-style: none;
+}
